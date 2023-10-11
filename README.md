@@ -1,42 +1,29 @@
-# sppaco
+Claro, aqui está um desafio técnico para avaliar candidatos para uma vaga sênior em Engenharia de Machine Learning:
 
-**Resumo:**
+**Título do Desafio: Detecção de Fraudes em Transações Financeiras**
 
-Este projeto de pesquisa de iniciação científica tem como objetivo investigar os complexos mecanismos de inferência causal nas relações entre modernização, velocidade, produtividade, qualidade e eficiência em ambientes organizacionais. Através de uma revisão da literatura e análises empíricas, busca-se compreender de que maneira a modernização afeta os demais fatores e quais as implicações dessa interação para as organizações.
+**Descrição:**
+Você foi contratado por uma instituição financeira para desenvolver um sistema de detecção de fraudes em transações financeiras. A empresa coletou uma grande quantidade de dados de transações passadas, incluindo informações sobre o valor da transação, localização, tipo de cartão, horário da transação e se a transação foi fraudulenta ou não. Sua tarefa é construir um modelo de Machine Learning robusto que seja capaz de identificar transações fraudulentas com alta precisão.
 
-**Introdução e Justificativa:**
+**Requisitos:**
+1. Coletar e preparar os dados: Os dados estão disponíveis em um arquivo CSV. Você deve carregar e realizar a limpeza, pré-processamento e engenharia de recursos necessários.
 
-A modernização tem se tornado um componente fundamental no contexto organizacional contemporâneo. A rápida evolução tecnológica e as mudanças nas práticas de gestão tornam a modernização uma prioridade para muitas empresas. No entanto, a relação entre modernização, velocidade, produtividade, qualidade e eficiência é complexa e multifacetada. O entendimento de como essas variáveis se interconectam e se influenciam mutuamente é essencial para a tomada de decisões estratégicas.
+2. Modelagem: Construa um modelo de Machine Learning para detectar fraudes em transações financeiras. Você pode escolher qualquer algoritmo de sua preferência, como Random Forest, Support Vector Machine, Redes Neurais, etc.
 
-A bibliografia fundamental que embasa este projeto inclui autores como Judea Pearl, Donald Rubin, e outros especialistas em inferência causal. Esses autores desenvolveram metodologias e teorias fundamentais para a análise de relações de causa e efeito em contextos diversos. Além disso, estudos empíricos em campos como administração, economia e engenharia oferecem insights valiosos sobre as relações entre modernização, velocidade, produtividade, qualidade e eficiência.
+3. Avaliação de Desempenho: Avalie o desempenho do seu modelo usando métricas apropriadas, como precisão, recall, F1-score e área sob a curva ROC (AUC-ROC).
 
-**Objetivos:**
+4. Tuning de Hiperparâmetros: Realize uma busca de hiperparâmetros para otimizar o desempenho do seu modelo.
 
-Os principais objetivos deste projeto são:
+5. Explicabilidade: Explique as decisões do seu modelo de forma clara e interpretable. Isso é particularmente importante em um ambiente financeiro, onde é fundamental entender por que uma decisão foi tomada.
 
-1. Analisar a relação entre modernização, velocidade, produtividade, qualidade e eficiência em ambientes organizacionais.
+6. Implantação: Crie um serviço web (por exemplo, usando Flask ou FastAPI) que permita a um usuário inserir os detalhes de uma transação e receber uma resposta sobre a sua autenticidade.
 
-2. Identificar os principais mecanismos de inferência causal que regem essas relações.
+**Critérios de Avaliação:**
+- Qualidade do modelo, com ênfase na precisão na detecção de fraudes.
+- Capacidade de explicar as decisões do modelo.
+- Organização e documentação do código.
+- Eficiência na implantação do modelo em um serviço web.
+- Habilidade para lidar com dados desbalanceados e questões de segurança.
 
-3. Avaliar o impacto da modernização na eficiência, qualidade, produtividade e velocidade das operações organizacionais.
-
-4. Propor recomendações práticas para empresas que desejam modernizar suas operações.
-
-**Plano de Trabalho e Cronograma de Execução:**
-
-- Revisão da literatura: 3 meses
-- Coleta de dados: 4 meses
-- Análise de dados: 3 meses
-- Redação do relatório final: 2 meses
-- Revisão e formatação do relatório: 1 mês
-- Apresentação dos resultados: 1 mês
-
-**Material e Métodos:**
-
-Este projeto utilizará uma abordagem mista, combinando revisão da literatura com análise de dados empíricos. A revisão da literatura será conduzida para estabelecer as bases teóricas e metodológicas. A coleta de dados será realizada em organizações de diferentes setores, usando métodos quantitativos, como questionários e análise estatística.
-
-**Forma de Análise dos Resultados:**
-
-A análise dos resultados será realizada por meio de técnicas estatísticas avançadas, incluindo regressão linear e análise de caminhos. Será dada ênfase à identificação de relações de causalidade utilizando métodos desenvolvidos por Judea Pearl e Donald Rubin, como o método de pareamento e o uso de variáveis instrumentais.
-
-Esse projeto de iniciação científica tem o potencial de contribuir para o entendimento das relações entre modernização, velocidade, produtividade, qualidade e eficiência, fornecendo insights valiosos para a gestão de organizações em um ambiente em constante transformação.
+**Observações:**
+Este é um desafio técnico aberto, e você pode escolher as ferramentas e bibliotecas que considerar mais apropriadas para a tarefa. Lembre-se de que, além de resolver o problema técnico, você será avaliado em sua capacidade de comunicar suas decisões e resultados de forma clara. Boa sorte!
